@@ -1,2 +1,6 @@
 # Godot 4+ specific ignores
 .godot/
+.vscode/
+*.translation
+GameRustLib/target/debug/*/
+GameRustLib/target/debug/*GameRustLib.dll

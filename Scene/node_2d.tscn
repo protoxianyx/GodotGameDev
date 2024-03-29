@@ -1,9 +1,23 @@
-[gd_scene format=3 uid="uid://nphdfobqkd2m"]
+[gd_scene load_steps=4 format=3 uid="uid://nphdfobqkd2m"]
+
+[ext_resource type="Script" path="res://Scripts/Csharp_Scripts/Button.cs" id="1_1n5hw"]
+[ext_resource type="Texture2D" uid="uid://d10oh4giuegdb" path="res://Assests/icon.svg" id="2_ywn6f"]
+[ext_resource type="Texture2D" uid="uid://bmiphmtqkxb7o" path="res://Assests/Pixel Art-Demo.png" id="3_gyqgh"]
 
 [node name="Node2D" type="Node2D"]
+scale = Vector2(0.0740437, 0.067623)
 
 [node name="Button" type="Button" parent="."]
-offset_right = 8.0
-offset_bottom = 8.0
-scale = Vector2(18.88, 18.88)
+offset_right = 62.0
+offset_bottom = 31.0
+scale = Vector2(9.15128, 13.0464)
 text = "Button"
+script = ExtResource("1_1n5hw")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(796.827, 236.606)
+texture = ExtResource("2_ywn6f")
+
+[node name="PixelArt-demo" type="Sprite2D" parent="."]
+position = Vector2(1323.54, 369.697)
+texture = ExtResource("3_gyqgh")
