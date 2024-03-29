@@ -3,4 +3,4 @@
 .vscode/
 *.translation
 GameRustLib/target/debug/*/
-GameRustLib/target/debug/*GameRustLib.dll
+GameRustLib/target/debug/*game_rust_lib.dll

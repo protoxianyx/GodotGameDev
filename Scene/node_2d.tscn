@@ -19,5 +19,5 @@ position = Vector2(796.827, 236.606)
 texture = ExtResource("2_ywn6f")
 
 [node name="PixelArt-demo" type="Sprite2D" parent="."]
-position = Vector2(1323.54, 369.697)
+position = Vector2(405.166, 399.272)
 texture = ExtResource("3_gyqgh")

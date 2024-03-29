@@ -4,5 +4,5 @@ compatibility_minimum = 4.1
 reloadable = true
 
 [libraries]
-windows.debug.x86_64 =   "res://GameRustLib/target/debug/GameRustLib.dll"
-windows.release.x86_64 = "res://GameRustLib/release/GameRustLib.dll"
+windows.debug.x86_64 =   "res://GameRustLib/target/debug/game_rust_lib.dll"
+windows.release.x86_64 = "res://GameRustLib/release/game_rust_lib.dll"
