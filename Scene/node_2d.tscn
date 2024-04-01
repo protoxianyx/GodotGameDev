@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scripts/Csharp_Scripts/Button.cs" id="1_1n5hw"]
 [ext_resource type="Texture2D" uid="uid://d10oh4giuegdb" path="res://Assests/icon.svg" id="2_ywn6f"]
-[ext_resource type="Texture2D" uid="uid://bmiphmtqkxb7o" path="res://Assests/Pixel Art-Demo.png" id="3_gyqgh"]
+[ext_resource type="Texture2D" uid="uid://ck1yxf3q2khg4" path="res://Assests/Art/IDk-what-is-this.png" id="3_4jhua"]
 
 [node name="Node2D" type="Node2D"]
 scale = Vector2(0.0740437, 0.067623)
@@ -18,6 +18,6 @@ script = ExtResource("1_1n5hw")
 position = Vector2(796.827, 236.606)
 texture = ExtResource("2_ywn6f")
 
-[node name="PixelArt-demo" type="Sprite2D" parent="."]
-position = Vector2(405.166, 399.272)
-texture = ExtResource("3_gyqgh")
+[node name="Icon2" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_4jhua")

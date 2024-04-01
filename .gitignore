@@ -4,3 +4,4 @@
 *.translation
 GameRustLib/target/debug/*/
 GameRustLib/target/debug/*game_rust_lib.dll
+Notes/Notes/.obsidian/
