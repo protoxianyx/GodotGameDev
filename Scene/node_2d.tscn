@@ -8,17 +8,17 @@ script = ExtResource("1_fjsjf")
 [node name="Play" type="Button" parent="."]
 custom_minimum_size = Vector2(0.05, 0)
 offset_left = 434.0
-offset_top = 445.0
+offset_top = 119.0
 offset_right = 663.0
-offset_bottom = 554.0
+offset_bottom = 228.0
 text = "Play"
 
 [node name="Quit" type="Button" parent="."]
 custom_minimum_size = Vector2(0.05, 0)
 offset_left = 434.0
-offset_top = 103.0
+offset_top = 273.0
 offset_right = 663.0
-offset_bottom = 212.0
+offset_bottom = 382.0
 text = "Quit"
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
