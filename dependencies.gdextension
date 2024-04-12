@@ -4,5 +4,5 @@ compatibility_minimum = 4.1
 reloadable = true
 
 [libraries]
-windows.debug.x86_64 =   "res://GameRustLib/target/debug/game_rust_lib.dll"
-windows.release.x86_64 = "res://GameRustLib/release/game_rust_lib.dll"
+windows.debug.x86_64 =   "res://rust_bindings/target/debug/rust_bindings_godot.dll"
+windows.release.x86_64 = "res://rust_bindings/release/rust_bindings_godot.dll"

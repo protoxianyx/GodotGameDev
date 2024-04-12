@@ -2,8 +2,9 @@
 .godot/
 .vscode/
 *.translation
-GameRustLib/target/debug/*/
-GameRustLib/target/debug/*game_rust_lib.dll
+rust_bindings/target/debug/*/
+rust_bindings/target/debug/*rust_bindings_godot.dll
+rust_bindings/target/debug/*rust_bindings_godot.dll.*
 Notes/Notes/.obsidian/
 build/.cmake/
 build/compile_commands.json
